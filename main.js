@@ -27,9 +27,9 @@ const params = window
         },
         {}
     );
-/* Кликовая ссылка */
-const href = params["referer"];
 /* Адрес страницы */
+const href = params["referer"];
+/* Кликовая ссылка */
 const linkOut = params["click_url"];
 
 const secondFrame = `
