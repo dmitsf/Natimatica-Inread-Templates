@@ -71,8 +71,8 @@ checkboxList.map((e, i) => {
 });
 
 /* Адреса отправки запросов */
-let urlStat = '//my.natimatica.com/app/proxy/stat/marshal_residential_complex',
-    urlLead = '//my.natimatica.com/app/proxy/lead/marshal_residential_complex';
+let urlStat = 'https://my.natimatica.com/app/proxy/stat/marshal_residential_complex',
+    urlLead = 'https://my.natimatica.com/app/proxy/lead/marshal_residential_complex';
 
 function send_data(data, url) {
     const xhr = new XMLHttpRequest();
